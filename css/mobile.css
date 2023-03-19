@@ -1,4 +1,4 @@
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   html {
     font-size: 55%
   }
@@ -49,5 +49,40 @@
     background: none;
     padding: 0;
     border-radius: 0px;
+  }
+
+  .homeContainer {
+    flex-direction: column;
+  }
+
+  #home {
+    flex-direction: column-reverse;
+  }
+
+  #about {
+    flex-direction: column;
+  }
+
+  .img {
+    width: 70vw;
+    height: 400px;
+    margin: 4rem 0;
+  }
+
+  .aboutImg img {
+    width: 70vw;
+    height: 300px;
+  }
+
+  .footerText p {
+    font-size: 1.5rem;
+  }
+  
+  .footerIconTop a i {
+    font-size: 2rem;
+  }
+
+  .portfolioContainer {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

@@ -32,5 +32,9 @@ window.onscroll = () => {
   });
   // Sticky navbar
   let header = document.querySelector("header");
-  header.classList.toggle('sticky', window.scrollY)
+  header.classList.toggle('sticky', window.scrollY > 100);
+
+  // Remove toggle and navbar 
+  // menuBar.classList.toggle('fa-close');
+  // navbar.classList.toggle('active');
 };
