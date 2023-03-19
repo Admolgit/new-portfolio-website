@@ -50,7 +50,7 @@ body {
 }
 
 .logo {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: var(--text-color);
   font-weight: 600;
   cursor: default;
@@ -93,7 +93,7 @@ body {
 }
 
 .homeContent h3 {
-  font-size: 2.8rem;
+  font-size: 3.5rem;
   font-weight: 700;
 }
 
@@ -114,13 +114,13 @@ body {
 }
 
 .homeContent h1 {
-  font-size: 4.6rem;
+  font-size: 5rem;
   font-weight: 700;
   line-height: 1.3;
 }
 
 .homeContent p {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 
 .social_media a {
@@ -201,11 +201,11 @@ body {
 }
 
 .aboutContent h3 {
-  font-size: 2.2rem;
+  font-size: 3.5rem;
 }
 
 .aboutContent p {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin: 2rem 0 3rem;
 }
 
@@ -241,11 +241,11 @@ body {
 
 .serviceBox h3 {
   margin-top: 1rem;
-  font-size: 2.2rem;
+  font-size: 3.5rem;
 }
 
 .serviceBox p {
-  font-size:  1.2rem;
+  font-size:  1.8rem;
   margin: 1rem 0 3rem;
 }
 
@@ -304,11 +304,11 @@ body {
 }
 
 .portfolioLayer h4 {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .portfolioLayer p {
-  font-size: 1rem;
+  font-size: 2rem;
   margin: .3rem 0 1rem;
 }
 .portfolioLayer a {
@@ -377,7 +377,7 @@ body {
 }
 
 .footerText p {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .footerIconTop a {
@@ -391,7 +391,7 @@ body {
 }
 
 .footerIconTop a i {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: var(--second-bg-color);
 }
 
