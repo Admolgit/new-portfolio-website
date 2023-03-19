@@ -1,0 +1,53 @@
+@media (min-width: 1200px) {
+  html {
+    font-size: 55%
+  }
+}
+
+@media (min-width: 991px) {
+  .header {
+    padding: 2rem 3%;
+  }
+  section {
+    padding: 10rem 3% 2rem;
+  }
+  .footer {
+    padding: 2rem 3% 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menuBar {
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background: var(--bg-color);
+    border-top: .1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 .5rem 1rem 0 rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .navbar a {
+    display: block;
+    font-size: 1.5rem;
+    margin: 3rem 0;
+  }
+
+  .contact {
+    background: none;
+    padding: 0;
+    border-radius: 0px;
+  }
+}
