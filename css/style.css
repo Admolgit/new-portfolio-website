@@ -111,6 +111,19 @@ body {
   border-radius: 20px;
   border: .8rem solid var(--main-color);
   padding: 1rem;
+  animation: floatImage .9s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .homeContent h1 {
