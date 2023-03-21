@@ -106,17 +106,11 @@
   .contactContainer form .inputBox input {
     width: 100%;
   }
-}
-
-@media (max-width: 500px) {
-  .portfolioContainer {
-    grid-template-columns: repeat(1, 1fr);
+  .logo {
+    font-size: 2.5rem;
   }
-  html {
-    font-size: 50%;
-  }
-  .contactContainer form .inputBox input {
-    width: 100%;
+  .logo, .menuBar, .menuClose {
+    margin-left: -3rem;
   }
 }
 
