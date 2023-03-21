@@ -106,11 +106,22 @@
   .contactContainer form .inputBox input {
     width: 100%;
   }
-  .logo {
-    font-size: 2.5rem;
+}
+
+@media (max-width: 617px) {
+  .aboutImg img {
+    width: 90%;
   }
-  .logo, .menuBar, .menuClose {
-    margin-left: -3rem;
+
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .portfolioHeader {
+    width: 100%;
+  }
+  .footer p {
+    text-align: center;
+    margin-top: 2rem;
   }
 }
 
