@@ -383,6 +383,8 @@ body {
   cursor: pointer;
 }
 
+/*==== Footer =====*/
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -413,4 +415,24 @@ body {
 
 .footerIconTop a:hover {
   box-shadow: 0 0 1rem var(--main-color);
+}
+
+.whatsapp > p {
+  position: fixed;
+  top: 48%;
+  right: 9%;
+  color: #fff;
+  font-size: 16px;
+}
+
+.whatsapp img {
+  width: 120px;
+}
+
+.whatsapp a {
+  position: fixed;
+  top: 50%;
+  right: 7%;
+  color: #fff;
+  font-size: 1.5em;
 }
